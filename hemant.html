@@ -1,0 +1,216 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Wall Painting</title>
+    <link rel="stylesheet" href="hemant.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo.PNG" alt="Hemant Logo">
+        </div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <form class="search-bar" role="search">
+          <input type="search" placeholder="Search..." aria-label="Search">
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+
+    <section class="about-section">
+      <div class="main-content">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ex ipsam libero harum deserunt, a dolore laudantium nostrum ad vitae saepe culpa nam, eius aliquid reprehenderit. Mollitia architecto harum tempora a adipisci cumque animi, saepe illo ab. Dolorum quia nisi quis sint assumenda unde voluptatibus sunt repudiandae non voluptatem!</p>
+      </div>
+      <div class="image-About">
+        <img src="logo.PNG" alt="Hemant Profile Image">
+      </div>
+    </section>
+
+    <section class="service-action">
+      <div class="service1">
+        <h2>Services</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam odio mollitia odit debitis eos eligendi impedit quisquam deserunt, quidem et unde doloremque, facere ab, sint omnis similique? Impedit eos iste accusantium vero maiores facere ab!</p>
+      </div>
+      <div class="service2">
+        <img src="wall 1.jpeg" alt="Wall Painting Service">
+        <img src="bat.jpeg" alt="Art Service">
+      </div>
+    </section>
+
+    <section class="product-slider-container">
+      <h2>Our Signature Products</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="heart.jpeg" alt="Wall Painting Art">
+          <div class="content">
+            <h2>Wall Painting Art</h2>
+            <p>High-quality handmade art to brighten your living space.</p>
+            <div class="price">₹999</div>
+            <a class="buy-btn" href="https://wa.me/919999999999?text=I'm%20interested%20in%20buying%20this%20product" target="_blank" rel="noopener">Order Now</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="moon.jpeg" alt="Pot Painting">
+          <div class="content">
+            <h2>Pot Painting</h2>
+            <p>Beautifully crafted pot painting to enhance your decor.</p>
+            <div class="price">₹499</div>
+            <a class="buy-btn" href="https://wa.me/919999999999?text=I'm%20interested%20in%20buying%20this%20product" target="_blank" rel="noopener">Order Now</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="heartww.jpeg" alt="Art Piece">
+          <div class="content">
+            <h2>Art Piece</h2>
+            <p>Unique art pieces that tell a story and add character to your home.</p>
+            <div class="price">₹799</div>
+            <a class="buy-btn" href="https://wa.me/919999999999?text=I'm%20interested%20in%20buying%20this%20product" target="_blank" rel="noopener">Order Now</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="potwe.jpeg" alt="Pot Painting">
+          <div class="content">
+            <h2>Pot Painting</h2>
+            <p>Beautifully crafted pot painting to enhance your decor.</p>
+            <div class="price">₹499</div>
+            <a class="buy-btn" href="https://wa.me/919999999999?text=I'm%20interested%20in%20buying%20this%20product" target="_blank" rel="noopener">Order Now</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="potnew.jpeg" alt="Pot Painting">
+          <div class="content">
+            <h2>Pot Painting</h2>
+            <p>Beautifully crafted pot painting to enhance your decor.</p>
+            <div class="price">₹499</div>
+            <a class="buy-btn" href="https://wa.me/919999999999?text=I'm%20interested%20in%20buying%20this%20product" target="_blank" rel="noopener">Order Now</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="image-gallery">
+      <h2>Our Collection</h2>
+      <div class="gallery-container">
+        <img src="bat.jpeg" alt="Artwork 1">
+        <img src="bed.jpeg" alt="Artwork 2">
+        <img src="heart.jpeg" alt="Artwork 3">
+        <img src="heartww.jpeg" alt="Artwork 4">
+        <img src="hemu.jpeg" alt="Artwork 5">
+        <img src="potflow.jpeg" alt="Artwork 6">
+        <img src="pot.jpeg" alt="Artwork 7">
+        <img src="wall 1.jpeg" alt="Artwork 8">
+        <img src="potnew.jpeg" alt="Artwork 9">
+        <img src="moonbed.jpeg" alt="Artwork 10">
+      </div>
+    </section>
+
+    <section class="slideshow-container">
+      <h2>Featured Work</h2>
+      <div class="slideshow-wrapper">
+        <img id="slideshow" src="bat.jpeg" alt="Featured Artwork 1">
+      </div>
+      <div class="slideshow-controls">
+        <button type="button" onclick="prevImage()" class="arrow">← Previous</button>
+        <button type="button" onclick="nextImage()" class="arrow">Next →</button>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>We are a dedicated team of artists passionate about transforming spaces with our unique wall paintings. Our mission is to bring creativity and color into your life.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p>Email: <a href="mailto:hemantjimin@gmail.com">hemantjimin@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Hemant's Wall Painting. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt=""></a>
+          <a href="#" aria-label="Twitter"><img src="images/twitter-icon.png" alt=""></a>
+          <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Slideshow
+      const slideshowImage = document.getElementById("slideshow");
+      const images = [
+        'bat.jpeg',
+        'heartww.jpeg',
+        'bed.jpeg',
+        'moon.jpeg',
+        'potwe.jpeg',
+        'wall 1.jpeg',
+        'heart.jpeg',
+        'hemu.jpeg',
+        'potflow.jpeg',
+        'pot.jpeg',
+        'potnew.jpeg',
+        'moonbed.jpeg'
+      ];
+      let currentIndex = 0;
+
+      function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        slideshowImage.src = images[currentIndex];
+        slideshowImage.alt = `Featured Artwork ${currentIndex + 1}`;
+      }
+
+      function prevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        slideshowImage.src = images[currentIndex];
+        slideshowImage.alt = `Featured Artwork ${currentIndex + 1}`;
+      }
+
+      setInterval(nextImage, 8000);
+
+      // Navbar Scroll Hide
+      let lastScroll = 0;
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        document.querySelector('.navbar').classList.toggle('hidden', currentScroll > lastScroll && currentScroll > 100);
+        lastScroll = currentScroll;
+      });
+    </script>
+  </body>
+  </html>
